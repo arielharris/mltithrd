@@ -8,7 +8,7 @@ using namespace std;
 #define SALESPPL  20
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
-//global of all the input files in an arr
+//global of all the input files in an arr -- CAN NOT BE ACCESSED NOW W/O SSH INTO SU
 const string files[SALESPPL] = { "/home/fac/lillethd/cpsc3500/projects/p3a/sales1.txt",
 							"/home/fac/lillethd/cpsc3500/projects/p3a/sales2.txt",
 							"/home/fac/lillethd/cpsc3500/projects/p3a/sales3.txt",
